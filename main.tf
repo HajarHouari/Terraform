@@ -1,4 +1,3 @@
-provider "docker" {}
 
 resource "docker_network" "td_net" {
   name = var.network_name
